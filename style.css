@@ -1,0 +1,77 @@
+:root {
+  --width:40px;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  zoom: 75%;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 1% 2% 0 2%;
+  text-align: left;
+  background-color: #1e1e1e;
+}
+
+.appName {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.navItemsList {
+  margin-left: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.newArray {
+  margin-right: 1rem;
+}
+
+.navDropdown {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Bars */
+.barsCon {
+  margin-top: 5%;
+  height: 70vh;
+}
+.bar {
+  width: var(--width);
+  background-color: whitesmoke;
+  margin-right: 2px;
+  margin-left: 5px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 3px 5px pink;
+  transition: ease-out 0.3s;
+}
+
+/* Sort Btn */
+.btn-lg {
+  font-size: 1.75rem;
+  border-radius: 50px;
+  border-color: #710193;
+  #box-shadow: 5px 3px pink;
+  font-weight: bold;
+  width: 200px;
+}
+
+.bar:hover {
+  transition: 0.3s ease-out;
+  box-shadow: 10px 10px 10px 10px #710193;
+  width: 3%;
+  margin: 0px 5px 0px 7px;
+}
+
+@media screen and (max-width: 480px) {
+.btn-lg {
+position: absolute;
+top: 80%;
+left: -30%;
+}
+}
